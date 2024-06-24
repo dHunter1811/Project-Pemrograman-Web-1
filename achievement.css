@@ -1,0 +1,169 @@
+body {
+    background-color: #ECECEC;
+}
+
+/* Header */
+.header {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header .scoody {
+    background: url('scoody_32.png') 50% / cover no-repeat;
+    width: 150px;
+    height: 85px;
+    position: absolute;
+    top: 5px;
+    left: 35px;
+}
+
+.header .kotak {
+    border-radius: 20px;
+    background: rgba(204, 204, 204, 0.8);
+    position: absolute;
+    margin: 15px 0 0 350px;
+    display: flex;
+    flex-direction: row;
+    padding: 13px 0 12px 22px;
+    width: 450px;
+    height: 54px;
+    box-sizing: border-box;
+}
+
+.header .telusuri {
+    margin-left: 20px;
+    background: none;
+    outline: none;
+    border: none;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Bagian Kiri */
+.kiri {
+    background: #FFFFFF;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    height: 980px;
+    width: 17%;
+}
+
+.kiri .profil {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: #FFFFFF;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    position: relative;
+    top: 15px;
+    left: 13px;
+    margin-bottom: 15px;
+    padding: 8px 13px 13px 13px;
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.profil .name {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+}
+
+.profil .gambar {
+    border-radius: 50%;
+    background: 000;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.a_kiri {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.a_kiri1 {
+    position: absolute;
+    top: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* konten */
+.konten {
+    background: #FFFFFF;
+    position: absolute;
+    border-radius: 10px;
+    top: 100px;
+    left: 240px;
+    right: 20px;
+    height: 940px;
+    width: calc(100% - 260px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card {
+    border: 1px solid #ccc;
+    background: yellow;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.points {
+    font-size: 14px;
+    color: #555;
+}
+
+.ambil-button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ambil-button:hover {
+    background-color: #0056b3;
+}

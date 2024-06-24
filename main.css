@@ -1,0 +1,215 @@
+body {
+    background-color: #ECECEC;
+}
+
+.header {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header .scoody {
+    background: url('scoody_32.png') 50% / cover no-repeat;
+    width: 150px;
+    height: 85px;
+    position: absolute;
+    top: 5px;
+    left: 35px;
+}
+
+.header .kotak {
+    border-radius: 20px;
+    background: rgba(204, 204, 204, 0.8);
+    position: absolute;
+    margin: 15px 0 0 350px;
+    display: flex;
+    flex-direction: row;
+    padding: 13px 0 12px 22px;
+    width: 450px;
+    height: 54px;
+    box-sizing: border-box;
+}
+
+.header .telusuri {
+    margin-left: 20px;
+    background: none;
+    outline: none;
+    border: none;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.kiri {
+    background: #FFFFFF;
+    position: fixed;
+    top: 90px;
+    left: 0;
+    height: 980px;
+    width: 17%;
+}
+
+.kiri .profil {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: #FFFFFF;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    position: relative;
+    top: 15px;
+    left: 13px;
+    margin-bottom: 15px;
+    padding: 8px 13px 13px 13px;
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.profil .name {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+}
+
+.profil .gambar {
+    border-radius: 50%;
+    background: #000;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.a_kiri {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.a_kiri1 {
+    position: absolute;
+    top: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.konten {
+    background: #FFFFFF;
+    position: absolute;
+    border-radius: 10px;
+    top: 100px;
+    left: 240px;
+    right: 20px;
+    height: 940px;
+    width: calc(100% - 260px);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.chat{
+    border-radius: 10%;
+    width: 50%;
+    height: auto;
+    background-color: #000000; 
+    position: absolute;
+    top: 100px;
+    left: 254px;
+    right: 20px;
+}
+
+.pertanyaan {
+    font-family: Arial, sans-serif;
+    width: 650px;
+    margin: 50px auto;
+    background-color: yellow;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.pertanyaan_head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.pertanyaan_head img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.pertanyaan_head div {
+    font-weight: bold;
+}
+.question {
+    margin-bottom: 20px;
+}
+.question p {
+    margin: 0;
+}
+.tags {
+    margin-bottom: 20px;
+}
+.tags button {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.interaction {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.interaction div {
+    display: flex;
+    align-items: center;
+}
+.interaction div span {
+    margin-left: 5px;
+}
+.answer-box {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+.answer-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.container_pertanyaan{
+    display: flex;
+    margin-top: 60px;
+}
